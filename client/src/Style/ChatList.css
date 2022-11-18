@@ -1,0 +1,35 @@
+.profiles {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .profiles:hover{
+    background-color: lightgreen;
+  }
+
+  .profile-image{
+    width: 45px;
+  }
+
+  .profile-image > img{
+    width: 100%;
+  }
+
+  .profile-name{
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .name{
+    font-size: 15px;
+  }
+
+  .user-lastmessage {
+    font-size: 10px;
+    margin-left: 1px;
+    margin-top: 2px;
+    color: gray;
+  }

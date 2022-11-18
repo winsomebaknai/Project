@@ -1,0 +1,43 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: center;
+    z-index: 100;
+    position: relative;
+    min-height: 500px;
+    overflow-y: hidden;
+    
+}
+
+
+.container-home{
+    width: 100%;
+    height: 100%;
+    max-width: 1366px;
+    z-index: 100;
+    display: flex;
+}
+
+.home-logo{
+    flex: 1;
+ 
+  z-index: 100;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-logo >img{
+    width: 300px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 1367px) {
+    .container-home {
+      height: 95%;
+    }
+  }
